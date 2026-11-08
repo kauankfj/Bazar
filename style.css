@@ -1,0 +1,305 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+main{
+
+    width: 100%;
+
+    height: 100%;
+    
+    background-color: #F4FAFC;
+    
+
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.nome{
+    text-align: center;
+    
+}
+
+.nome h1{
+    color: #08749F;
+}
+
+img{
+    
+    width: 75px;
+    
+    margin-top: 8px;
+    
+    margin-left: 10px;
+
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    width: 95%;
+    max-width: 1400px;
+    margin: 30px auto;
+}
+
+.banner img {
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 25px;
+    gap: 15px;
+    box-sizing: border-box;
+}
+
+header nav {
+    position: static;
+    transform: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    
+}
+
+header h1 {
+    font-size: 9px;
+    white-space: nowrap;
+}
+
+
+header nav a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    flex-shrink: 0;
+
+    width: auto;
+    min-width: 100px;
+    height: 42px;
+    padding: 0 18px;
+
+    background-color: #159BC5;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+header nav a:hover {
+    background-color: #08749F;
+}
+
+p{
+    color: #263746;
+}
+ h1{
+
+    color: #263746;
+
+    font-size: 35px;
+
+}
+
+
+
+
+h2{
+
+    font-size: 35px;
+    
+    color: #263746;
+    
+}
+
+.servicos {
+    
+    padding: 40px;
+    justify-content: center;
+
+}
+
+.servicos p{
+
+    font-size: 30px;
+}
+
+.cards {
+   
+    display: flex;
+   
+    justify-content: center;
+   
+    gap: 20px;
+   
+    margin-top: 30px;
+
+}
+
+.card {
+    
+      background-color: #FFFFFF;
+    width: 320px;
+    height: 70px;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.card h3 {
+    color: #08749F;
+}
+
+.card p{
+    color: #08749F;
+}
+
+.localidade h1{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.localidade h2{
+    font-size: 25px;
+    margin: 15px;
+    color: #08749F;
+}
+
+
+.mapa {
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+}
+
+.mapa iframe {
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
+
+footer{
+
+    background-color: #08749F;
+    
+    color: white;
+    
+    text-align: center;
+
+    padding: 30px;
+
+    position: relative;
+    
+    z-index: 2;
+   
+}
+
+footer h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+footer p{
+    margin: 8px;
+}
+
+/* CELULAR */
+@media (max-width: 500px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    header nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 700px) {
+    header {
+        height: auto;
+        padding: 10px;
+        flex-direction: column;
+        gap: 15px;
+    }}
+
+    header nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header nav a {
+        font-size: 14px;
+        padding: 12px 15px;
+    }
+
+@media (max-width: 768px) {
+
+    .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .servicos,
+    .sobre,
+    .localizacao {
+        padding: 20px 15px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
