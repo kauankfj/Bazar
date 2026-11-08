@@ -1,0 +1,412 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body{
+    overflow-x: hidden;
+   }
+
+main{
+    background-image: url(./Fundo\ Corporativo\ Azul\ com\ Papelaria.png);
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    width: 100%;
+
+    height: 100%;
+    
+    background-color: #F4FAFC;
+    
+
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.nome{
+    text-align: center;
+    
+}
+
+.nome h1{
+    color: #08749F;
+}
+
+img{
+    
+    width: 75px;
+    
+    margin-top: 8px;
+    
+    margin-left: 10px;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 25px;
+    gap: 15px;
+    box-sizing: border-box;
+}
+
+header nav {
+    position: static;
+    transform: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    
+}
+
+header h1 {
+    font-size: 9px;
+    white-space: nowrap;
+}
+
+
+
+.container{
+    
+    background-color: aliceblue;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 15px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 40px 20px;
+    justify-content: center;
+
+}
+
+.campo textarea{
+    min-height: 110px;
+    resize: vertical;
+}
+
+
+
+.campo label{
+    color: #159bc5;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.agendamento{
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #159BC5;
+    border-radius: 15px;
+
+    position: static;
+    transform: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.agendamento a{
+
+     display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    flex-shrink: 0;
+
+    width: auto;
+    min-width: 100px;
+    height: 42px;
+    padding: 0 18px;
+
+    background-color: #159BC5;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+
+.agendamento a:hover{
+    background-color: #08749F;
+}
+
+
+header nav a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    flex-shrink: 0;
+
+    width: auto;
+    min-width: 100px;
+    height: 42px;
+    padding: 0 18px;
+
+    background-color: #159BC5;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+
+p{
+    color: #263746;
+}
+ h1{
+
+    color: #263746;
+
+    font-size: 35px;
+
+}
+
+
+
+
+h2{
+
+    font-size: 35px;
+    
+    color: #263746;
+    
+}
+
+form{
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+
+label{
+     margin-top: 15px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #159BC5;
+}
+
+
+.campo input,
+.campo select,
+.campo textarea {
+    width: 100%;
+    padding: 13px;
+    box-sizing: border-box;
+    border: 1px solid #159bc5;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: inherit;
+    outline: none;
+    background-color: white;
+    
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+    border-color: #087ba5;
+    box-shadow: 0 0 5px rgba(21, 155, 197, 0.3);
+}
+
+textarea{
+    min-height: 100px;
+    resize: vertical;
+}
+
+button{
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #08749F;
+    color: #F4FAFC;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 550px;
+
+}
+
+button:hover{
+    background-color: #159BC5;
+}
+
+footer{
+
+    background-color: #08749F;
+    
+    color: white;
+    
+    text-align: center;
+
+    padding: 30px;
+
+    position: relative;
+    
+    z-index: 2;
+   
+}
+
+.formulario {
+    width: 100%;
+    max-width: 600px;
+    padding: 35px;
+    background-color: aliceblue;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+}
+
+.formulario h1 {
+    font-size: 28px;
+    color: #159BC5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* BOTÃO */
+.formulario button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #087ba5;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.formulario button:hover {
+    background-color: #056487;
+}
+
+
+footer h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+footer p{
+    margin: 8px;
+}
+
+/* CELULAR */
+@media (max-width: 500px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    header nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 700px) {
+    header {
+        height: auto;
+        padding: 10px;
+        flex-direction: column;
+        gap: 15px;
+    }}
+
+    header nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header nav a {
+        font-size: 14px;
+        padding: 12px 15px;
+    }
+
+@media (max-width: 768px) {
+
+    .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .servicos,
+    .sobre,
+    .localizacao {
+        padding: 20px 15px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+
+/* RESPONSIVIDADE */
+@media (max-width: 600px) {
+    .formulario {
+        padding: 22px;
+    }
+
+    .formulario h1 {
+        font-size: 23px;
+    }
+}

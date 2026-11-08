@@ -93,6 +93,45 @@ header h1 {
     white-space: nowrap;
 }
 
+.agendamento{
+     position: static;
+    transform: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.agendamento a{
+
+     display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    flex-shrink: 0;
+
+    width: auto;
+    min-width: 100px;
+    height: 42px;
+    padding: 0 18px;
+
+    background-color: #159BC5;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+
+.agendamento a:hover{
+    background-color: #08749F;
+}
+
 
 header nav a {
     display: inline-flex;

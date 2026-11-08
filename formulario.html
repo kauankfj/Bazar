@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./formulario.css">
+    <link rel="icon" type="image/png" href="./logo.jpg">
+    <title>BAZAR</title>
+</head>
+<body>
+    
+        <header>
+            <img src="./logo.jpg" alt="logo Bazar nossa senhora auxiliadora">
+         <nav>
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre nós</a>
+        <a href="#servicos">Serviços</a>
+        <a href="https://wa.me/5511992458904" target="_blank">
+            Fale conosco
+        </a>
+    </nav>    
+    </header>
+<main class="container">
+
+    <div class="formulario">
+
+        <h1>BAZAR AUXILIADORA</h1>
+
+        <form id="atendimento">
+
+            <!-- CAMPO DE PREENCHIMENTO DE NOME -->
+            <div class="campo">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" placeholder="Digite seu nome" required>
+            </div>
+
+            <!-- CAMPO DE PREENCHIMENTO DE NUMERO -->
+            <div class="campo">
+                <label for="telefone">Whatsapp</label>
+                <input type="tel" id="telefone" placeholder="(11) 99999-9999" required>
+            </div>
+
+            <!-- CAMPO DE SERVIÇOS -->
+            <div class="campo">
+                <label for="servicos">Escolha seu Serviço</label>
+
+                <select name="servicos" id="servicos" required>
+                    <option value="">Selecione uma opção</option>
+                    <option value="impressao">IMPRESSÃO</option>
+                    <option value="digitacao">DIGITAÇÃO</option>
+                    <option value="contrato">CONTRATOS</option>
+                    <option value="plastificacao">PLASTIFICAÇÃO</option>
+                </select>
+            </div>
+
+            <!-- CAMPO DE DATA -->
+            <div class="campo">
+                <label for="data">Data de atendimento</label>
+                <input type="date" id="data" required>
+            </div>
+
+            <!-- CAMPO DE HORARIO -->
+            <div class="campo">
+                <label for="horario">Horário de Atendimento</label>
+                <input type="time" id="horario" required>
+            </div>
+
+            <!-- OBSERVAÇÕES -->
+            <div class="campo">
+                <label for="mensagens">Deixe sua observação</label>
+                <textarea id="mensagens" placeholder="Digite sua observação"></textarea>
+            </div>
+
+            <button type="submit">SOLICITAR AGENDAMENTO</button>
+
+        </form>
+
+    </div>
+
+</main>
+
+<script src="formulario.js"></script>
+</body>
+</html>
